@@ -99,3 +99,62 @@ font-family: 'PT Serif', serif;
 .slick-prev {
     left: 20px;
 }
+
+.search__inner {
+    padding: 60px 0 80px;
+}
+
+.search__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__form-label {
+    width: 155px;
+    margin-right: 69px;
+
+    color: #888;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.search__form-input {
+    height: 70px;
+    width: 430px;
+    padding: 0 15px;
+
+    color: #888;
+    font-size: 18px;
+
+    border: 2px solid #c4c4c4;
+}
+
+.search__form-input::placeholder {
+    color: #888;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.search__form-btn {
+    position: relative;
+    padding: 21px 23px 21px 36px;
+
+    font-size: 24px;
+    color: #fff;
+    background-color: #c4c4c4;
+    border: none;
+    cursor: pointer;
+}
+
+.search__form-btn::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+
+    background-image: url(../images/search-icon.svg);
+    top: 26px;
+    left: 9px;
+}
